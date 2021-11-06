@@ -59,7 +59,7 @@
         
         #drop_zone {
             cursor: pointer;
-            display: inline;
+         /*display: inline;*/
             padding: 10px;
             margin: 10px;
             border: 2px dashed grey;
@@ -113,7 +113,7 @@
         <div class="row">
             <div style="width: 50%; float: right; min-width: 300px">
                 <h4>Send Files</h4>
-                <div id="drop_zone" class="span7" style="height: 50px; width: 80%; text-align: center; padding-top: 40px">
+                <div id="drop_zone" class="span7" style="height: 50px; width: 80%; text-align: center"> <!-- padding-top: 40px -->
                     Drop files here to share them with chat members.<br/>
                 </div>
                 <input type="file" class="span5" id="files" name="files[]" multiple />
@@ -136,7 +136,7 @@
                 </div>
                 <div id="bitrate"></div>
             </div>
-            <div id="videoSection" style="width: 50%; min-width: 300px">
+            <!--div id="videoSection" style="width: 50%; min-width: 300px">
                 <h4>Audio &amp; Video</h4>
                 <button class="btn" onclick="WebRTCChat.initVideo();" disabled>Share Audio + Video</button>
                 <button class="btn" onclick="WebRTCChat.initAudio();" disabled>Share Audio Only</button><br/>
@@ -151,7 +151,7 @@
                     <video id="myVideo" style="border: 1px solid #ddd;width:98%;height:auto;display:inline-block;" autoplay muted>
           </video>
                 </div>
-            </div>
+            </div-->
         </div>
     </div>
 
